@@ -1,0 +1,79 @@
+body {
+	background: url("../img/background.jpg")  top center;
+	font-family: arial;
+	ba
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.container {
+	margin: 30px auto 0 auto;
+	width: 600px;
+	overflow: auto;
+	position: relative;
+}
+
+#canvas {
+	background: #000;
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+#stats {
+	background-color: #333;
+	width: 100%;
+	margin-top: 10px; 
+	overflow: auto;
+
+}
+
+#score, #high-score {
+	width: 25%;
+	height: 50px;
+	line-height: 50px;
+	margin: 20px 20px;
+	text-align: center;
+	overflow: auto;
+	float: left;
+	background-color: #F1F1F1; 
+	color: #000;
+	border-radius: 10px;
+}
+
+#reset-high-score {
+	width: 25%;
+	height: 50px;
+	line-height: 50px;
+	margin: 20px 20px;
+	text-align: center;
+	border-radius: 10px;
+	float: right;
+}
+
+#overlay {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	top: 150px;
+	left: 170px;
+	z-index: 10;
+	width: 275px;
+	display: none;
+
+}
+
+#overlay a {
+	background-color: #333;
+	margin-top: 20px;
+	padding: 20px;
+	display: block;
+	border-radius: 10px;
+}
+
+#overlay a:hover {
+	cursor: pointer;
+}
